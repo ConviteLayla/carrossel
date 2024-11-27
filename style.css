@@ -116,14 +116,18 @@ p   {
 }
 
 .prev-before::before    {
-    content: "\002BC7";
+    content: "\1438";
     font-size: 1.3rem;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.13);
+    border-radius: 30%;
+    padding: 0.5rem;
 }
 .prev-next::before {
-    content: "\002BC8";
+    content: "\1433";
     font-size: 1.3rem;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.13);
+    border-radius: 30%;
+    padding: 0.5rem;
 }
 
 
