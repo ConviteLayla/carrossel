@@ -22,8 +22,9 @@ h1,h2,h3  {
     text-transform: capitalize;
 }
 h1  {
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgb(0, 35, 65);
+    transition: 300ms linear;
 }
 h2  {
     font-size: 1.5rem;
@@ -107,27 +108,31 @@ p   {
     margin-bottom: 1rem;
 }
 
-.prev-btn   {
+.btn   {
     border: none;
     background-color: transparent;
     padding: 1rem;
     color: #00437a;
-    
 }
 
 .prev-before::before    {
     content: "\002BC7";
     font-size: 1.3rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.13);
 }
 .prev-next::before {
     content: "\002BC8";
     font-size: 1.3rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.13);
 }
 
 
 @media screen and (min-width: 800px) {
     body    {
-        font-size: 1.3rem
+        font-size: 1.2rem
 
     }
-}
+    h1  {
+        font-size: 3rem;
+    }
+}   
